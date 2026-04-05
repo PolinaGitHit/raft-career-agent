@@ -1,6 +1,6 @@
 {
   "role": "iOS Developer (Swift)",
-  "generated_at": "2026-04-05T11:08:02.900612",
+  "generated_at": "2026-04-05T16:32:33.183356",
   "skill_map": {
     "languages": [
       {
@@ -58,86 +58,91 @@
         "trend": "growing"
       },
       {
-        "name": "CI/CD",
+        "name": "TestFlight",
         "demand": "nice-to-have",
-        "trend": "growing"
+        "trend": "stable"
       }
     ],
     "soft_skills": [
       {
-        "name": "Problem‑tuning",
-        "demand": "important",
+        "name": "Problem‑solving",
+        "demand": "critical",
         "trend": "growing"
+      },
+      {
+        "name": "Communication (English & Russian together .. ....???)",
+        "demand": "nice-to-have",
+        "trend": "stable"
       }
     ]
   },
   "salary_table": {
     "Junior": {
       "Moscow": {
-        "min": 60000,
-        "median": 90000,
-        "max": 120000
+        "min": 65000,
+        "median": 85000,
+        "max": 110000
       },
       "Regions_RF": {
-        "min": 40000,
-        "median": 65000,
-        "max": 90000
+        "min": 45000,
+        "median": 60000,
+        "max": 75000
       },
       "Remote_USD": {
         "min": 7000,
-        "median": 10000,
-        "max": 13000
+        "median": 9000,
+        "max": 12000
       }
     },
     "Middle": {
       "Moscow": {
-        "min": 110000,
-        "median": 150000,
-        "max": 190000
+        "min": 115000,
+        "median": 140000,
+        "max": 170000
       },
       "Regions_RF": {
-        "min": 80000,
-        "median": 115000,
-        "max": 140000
+        "min": 85000,
+        "median": 100000,
+        "max": 125000
       },
       "Remote_USD": {
-        "min": 12000,
-        "median": 17000,
-        "max": 22000
+        "min": 13000,
+        "median": 16000,
+        "max": 20000
       }
     },
     "Senior": {
       "Moscow": {
-        "min": 160000,
-        "median": 210000,
-        "max": 260000
+        "min": 165000,
+        "median": 195000,
+        "max": 235000
       },
       "Regions_RF": {
         "min": 120000,
-        "median": 165000,
-        "max": 210000
+        "median": 140000,
+        "max": 170000
       },
       "Remote_USD": {
-        "min": 19000,
-        "median": 25000,
-        "max": 31000
+        "min": 21000,
+        "median": 26000,
+        "max": 32000
       }
     },
     "Lead": {
       "Moscow": {
-        "min": 220000,
-        "median": 280000,
-        "max": 340000
+        "min": 225000,
+        "median": 265000,
+        "max": 310000
       },
       "Regions_RF": {
-        "min": 170000,
-        "median": 225000,
-        "max": 280000
+        "min": 165000,
+        "median": 190000,
+        "max": 220000
       },
       "Remote_USD": {
-        "min": 26000,
-        "median": 33000,
-        "max": 40000
+        "min": 28000,
+        "median": 34000,
+        "max": 41000
       }
     }
   },
@@ -158,7 +163,7 @@
           "Python fundamentals",
           "Object‑oriented programming",
           "SQL & PostgreSQL",
-          "REST API design"
+          "Unit testing"
         ],
         "resources": [
           {
@@ -166,19 +171,19 @@
             "type": "book"
           },
           {
-            "name": "Official Django Tutorial",
-            "type": "documentation"
+            "name": "Real Python – Core Concepts",
+            "type": "course"
           }
         ],
-        "milestone": "Создать CRUD‑приложение на Django с PostgreSQL и Docker"
+        "milestone": "Создать простое CRUD‑приложение на Flask с SQLite и покрыть его unit‑тестами."
       },
       {
         "phase": "Practice",
         "topics": [
-          "FastAPI",
-          "Docker Compose",
-          "Testing & TDD",
-          "AsyncIO"
+          "FastAPI & ASGI",
+          "Docker & Docker‑Compose",
+          "REST API design",
+          "CI/CD pipelines"
         ],
         "resources": [
           {
@@ -186,19 +191,19 @@
             "type": "documentation"
           },
           {
-            "name": "Test-Driven Development with FastAPI",
+            "name": "Docker Mastery – The Complete Guide",
             "type": "course"
           }
         ],
-        "milestone": "Построить два микросервиса и развернуть их через Docker Compose"
+        "milestone": "Разработать два микросервиса на FastAPI, упаковать их в Docker‑композ и развернуть через GitHub Actions."
       },
       {
         "phase": "Portfolio",
         "topics": [
-          "Kubernetes",
-          "CI/CD pipelines",
-          "Security best‑practice",
-          "Monitoring & logging"
+          "Kubernetes & Helm",
+          "Observability (Prometheus & Grafana),",
+          "Security & OWASP Top 10",
+          "Monitoring & Alerting"
         ],
         "resources": [
           {
@@ -206,35 +211,34 @@
             "type": "book"
           },
           {
-            "name": "GitHub Actions Documentation",
+            "title": "GitHub Actions Documentation",
             "type": "documentation"
           }
         ],
-        "milestone": "Деплоить проект на Kubernetes с CI/CD"
+        "milestone": "Деплоить приложение на Kubernetes с CI/CD и мониторингом."
       }
     ]
   },
   "gap_analysis": {
     "quick_wins": [
       "Освоить Docker",
-      "Настроить CI/CD",
-      "Добавить тесты"
+      "Внедрить unit‑тесты в существующий проект",
+      "Настроить Git‑flow"
     ],
     "long_term": [
-      "Изучить Kubernetes deeply",
-      "Оптимизировать производительность API",
-      "Разработать масштабируемую архитектуру микросервисов"
+      "Изучить микросервисную архитектуру глубоко",
+      "Постоянная связь передачи выходных выводов ПН …"
     ]
   },
   "portfolio_project": {
-    "title": "Task‑S3 – Система для объекта событий",
-    "description": "Разработана полнофункциональная система управления событиями, позволяющая хранить, обрабатывать и анализировать данные в реальном времени. В проекте реализованы REST‑API, а также клиентская часть на SwiftUI с использованием Combine для реактивного взаимодействия.",
+    "title": "Мобильный магазин с интеграцией Shopify",
+    "description": "Разработан кроссплатформенный iOS‑приложение, позволяющее пользователям просматривать каталог товаров, оформлять заказы и управлять корзиной. Приложение использует SwiftUI для UI, Combine для реактивной обработки данных и CoreData/Realm для локального хранения.",
     "skills_demonstrated": [
       "Swift",
+      "UIKit",
       "SwiftUI",
       "Combine",
-      "Xcode",
-      "Git"
+      "CoreData"
     ]
   },
   "quality_score": 80,

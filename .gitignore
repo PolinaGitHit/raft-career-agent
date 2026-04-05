@@ -31,7 +31,6 @@ pip-wheel-metadata/
 htmlcov/
 
 # IDE / OS
-.vscode/
 .idea/
 .DS_Store
 Thumbs.db

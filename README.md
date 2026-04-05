@@ -136,6 +136,13 @@ raft-career-agent/
     ```bash
     copy .env.example .env
     ```
+    ```txt
+    LLM_MODEL=openai/gpt-oss-20b
+    LLM_BASE_URL=http://127.0.0.1:1234/v1
+    LLM_API_KEY=lm-studio
+    LLM_TEMPERATURE=0.2
+    ```
+
 
 - **Запуск анализа ролей**
     ```bash

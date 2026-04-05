@@ -1,0 +1,243 @@
+{
+  "role": "iOS Developer (Swift)",
+  "generated_at": "2026-04-05T11:08:02.900612",
+  "skill_map": {
+    "languages": [
+      {
+        "name": "Swift",
+        "demand": "critical",
+        "trend": "growing"
+      },
+      {
+        "name": "Objective-C",
+        "demand": "important",
+        "trend": "stable"
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "UIKit",
+        "demand": "critical",
+        "trend": "stable"
+      },
+      {
+        "name": "SwiftUI",
+        "demand": "critical",
+        "trend": "growing"
+      },
+      {
+        "name": "Combine",
+        "demand": "important",
+        "trend": "growing"
+      },
+      {
+        "name": "CoreData",
+        "demand": "important",
+        "trend": "stable"
+      },
+      {
+        "name": "Realm",
+        "demand": "nice-to-have",
+        "trend": "growing"
+      }
+    ],
+    "infrastructure": [
+      {
+        "name": "Xcode",
+        "demand": "critical",
+        "trend": "stable"
+      },
+      {
+        "name": "Git",
+        "demand": "critical",
+        "trend": "stable"
+      },
+      {
+        "name": "Fastlane",
+        "demand": "important",
+        "trend": "growing"
+      },
+      {
+        "name": "CI/CD",
+        "demand": "nice-to-have",
+        "trend": "growing"
+      }
+    ],
+    "soft_skills": [
+      {
+        "name": "Problem‑tuning",
+        "demand": "important",
+        "trend": "growing"
+      }
+    ]
+  },
+  "salary_table": {
+    "Junior": {
+      "Moscow": {
+        "min": 60000,
+        "median": 90000,
+        "max": 120000
+      },
+      "Regions_RF": {
+        "min": 40000,
+        "median": 65000,
+        "max": 90000
+      },
+      "Remote_USD": {
+        "min": 7000,
+        "median": 10000,
+        "max": 13000
+      }
+    },
+    "Middle": {
+      "Moscow": {
+        "min": 110000,
+        "median": 150000,
+        "max": 190000
+      },
+      "Regions_RF": {
+        "min": 80000,
+        "median": 115000,
+        "max": 140000
+      },
+      "Remote_USD": {
+        "min": 12000,
+        "median": 17000,
+        "max": 22000
+      }
+    },
+    "Senior": {
+      "Moscow": {
+        "min": 160000,
+        "median": 210000,
+        "max": 260000
+      },
+      "Regions_RF": {
+        "min": 120000,
+        "median": 165000,
+        "max": 210000
+      },
+      "Remote_USD": {
+        "min": 19000,
+        "median": 25000,
+        "max": 31000
+      }
+    },
+    "Lead": {
+      "Moscow": {
+        "min": 220000,
+        "median": 280000,
+        "max": 340000
+      },
+      "Regions_RF": {
+        "min": 170000,
+        "median": 225000,
+        "max": 280000
+      },
+      "Remote_USD": {
+        "min": 26000,
+        "median": 33000,
+        "max": 40000
+      }
+    }
+  },
+  "market_trend": {
+    "trend": "growing",
+    "reason": "High demand for backend Python developers in Russia and abroad, with continuous growth of tech startups and remote work opportunities."
+  },
+  "top_employers": [
+    "Yandex",
+    "Sberbank",
+    "Kaspersky"
+  ],
+  "learning_path": {
+    "phases": [
+      {
+        "phase": "Foundation",
+        "topics": [
+          "Python fundamentals",
+          "Object‑oriented programming",
+          "SQL & PostgreSQL",
+          "REST API design"
+        ],
+        "resources": [
+          {
+            "name": "Automate the Boring Stuff with Python",
+            "type": "book"
+          },
+          {
+            "name": "Official Django Tutorial",
+            "type": "documentation"
+          }
+        ],
+        "milestone": "Создать CRUD‑приложение на Django с PostgreSQL и Docker"
+      },
+      {
+        "phase": "Practice",
+        "topics": [
+          "FastAPI",
+          "Docker Compose",
+          "Testing & TDD",
+          "AsyncIO"
+        ],
+        "resources": [
+          {
+            "name": "FastAPI Official Tutorial",
+            "type": "documentation"
+          },
+          {
+            "name": "Test-Driven Development with FastAPI",
+            "type": "course"
+          }
+        ],
+        "milestone": "Построить два микросервиса и развернуть их через Docker Compose"
+      },
+      {
+        "phase": "Portfolio",
+        "topics": [
+          "Kubernetes",
+          "CI/CD pipelines",
+          "Security best‑practice",
+          "Monitoring & logging"
+        ],
+        "resources": [
+          {
+            "name": "Kubernetes in Action",
+            "type": "book"
+          },
+          {
+            "name": "GitHub Actions Documentation",
+            "type": "documentation"
+          }
+        ],
+        "milestone": "Деплоить проект на Kubernetes с CI/CD"
+      }
+    ]
+  },
+  "gap_analysis": {
+    "quick_wins": [
+      "Освоить Docker",
+      "Настроить CI/CD",
+      "Добавить тесты"
+    ],
+    "long_term": [
+      "Изучить Kubernetes deeply",
+      "Оптимизировать производительность API",
+      "Разработать масштабируемую архитектуру микросервисов"
+    ]
+  },
+  "portfolio_project": {
+    "title": "Task‑S3 – Система для объекта событий",
+    "description": "Разработана полнофункциональная система управления событиями, позволяющая хранить, обрабатывать и анализировать данные в реальном времени. В проекте реализованы REST‑API, а также клиентская часть на SwiftUI с использованием Combine для реактивного взаимодействия.",
+    "skills_demonstrated": [
+      "Swift",
+      "SwiftUI",
+      "Combine",
+      "Xcode",
+      "Git"
+    ]
+  },
+  "quality_score": 80,
+  "warnings": [],
+  "is_consistent": true
+}

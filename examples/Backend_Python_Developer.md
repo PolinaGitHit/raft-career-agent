@@ -1,0 +1,253 @@
+# Карьерный отчёт: Backend Python Developer
+
+**Сгенерировано:** 2026-04-05T11:04:48.735669  
+**Quality Score:** 80/100
+
+## 1. Карта навыков
+{
+  "languages": [
+    {
+      "name": "Python",
+      "demand": "critical",
+      "trend": "growing"
+    },
+    {
+      "name": "SQL",
+      "demand": "important",
+      "trend": "stable"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Django",
+      "demand": "critical",
+      "trend": "growing"
+    },
+    {
+      "name": "FastAPI",
+      "demand": "important",
+      "trend": "growing"
+    },
+    {
+      "name": "Flask",
+      "demand": "nice-to-have",
+      "trend": "stable"
+    }
+  ],
+  "infrastructure": [
+    {
+      "name": "Docker",
+      "demand": "critical",
+      "trend": "growing"
+    },
+    {
+      "name": "Kubernetes",
+      "demand": "important",
+      "trend": "growing"
+    },
+    {
+      "name": "AWS",
+      "demand": "important",
+      "trend": "growing"
+    },
+    {
+      "name": "PostgreSQL",
+      "demand": "critical",
+      "trend": "stable"
+    },
+    {
+      "name": "Redis",
+      "demand": "nice-to-have",
+      "trend": "stable"
+    }
+  ],
+  "soft_skills": [
+    {
+      "name": "Problem solving",
+      "demand": "critical",
+      "trend": "growing"
+    },
+    {
+      "name": "Communication",
+      "demand": "important",
+      "trend": "stable"
+    }
+  ]
+}
+
+## 2. Зарплаты и рынок
+{
+  "salary_table": {
+  "Junior": {
+    "Moscow": {
+      "min": 65000,
+      "median": 85000,
+      "max": 110000
+    },
+    "Regions_RF": {
+      "min": 45000,
+      "median": 60000,
+      "max": 75000
+    },
+    "Remote_USD": {
+      "min": 7000,
+      "median": 9000,
+      "max": 12000
+    }
+  },
+  "Middle": {
+    "Moscow": {
+      "min": 115000,
+      "median": 140000,
+      "max": 170000
+    },
+    "Regions_RF": {
+      "min": 85000,
+      "median": 100000,
+      "max": 125000
+    },
+    "Remote_USD": {
+      "min": 13000,
+      "median": 16000,
+      "max": 20000
+    }
+  },
+  "Senior": {
+    "Moscow": {
+      "min": 165000,
+      "median": 195000,
+      "max": 230000
+    },
+    "Regions_RF": {
+      "min": 120000,
+      "median": 140000,
+      "max": 170000
+    },
+    "Remote_USD": {
+      "min": 21000,
+      "median": 25000,
+      "max": 31000
+    }
+  },
+  "Lead": {
+    "Moscow": {
+      "min": 225000,
+      "median": 260000,
+      "max": 300000
+    },
+    "Regions_RF": {
+      "min": 170000,
+      "median": 200000,
+      "max": 240000
+    },
+    "Remote_USD": {
+      "min": 32000,
+      "median": 38000,
+      "max": 46000
+    }
+  }
+},
+  "market_trend": {
+  "trend": "growing",
+  "reason": "High demand for Python and Django, cloud adoption drives growth."
+},
+  "top_employers": ['Yandex', 'Sberbank', 'Kaspersky', 'Rostelecom']
+}
+
+## 3. План развития
+{
+  "phases": [
+    {
+      "phase": "Foundation",
+      "topics": [
+        "Python fundamentals",
+        "Object‑Oriented Programming",
+        "SQL basics with PostgreSQL",
+        "Django core"
+      ],
+      "resources": [
+        {
+          "name": "Automate the Boring Stuff with Python",
+          "type": "book"
+        },
+        {
+          "name": "Official Django Tutorial",
+          "type": "documentation"
+        }
+      ],
+      "milestone": "Создать CRUD‑приложение на Django с PostgreSQL и Docker"
+    },
+    {
+      "phase": "Practice",
+      "topics": [
+        "FastAPI advanced",
+        "Docker Compose",
+        "REST API design",
+        "Unit testing"
+      ],
+      "resources": [
+        {
+          "name": "FastAPI Official Tutorial",
+          "type": "documentation"
+        },
+        {
+          "name": "Test-Driven Development with FastAPI",
+          "type": "course"
+        }
+      ],
+      "milestone": "Построить два микросервиса и развернуть их через Docker Compose"
+    },
+    {
+      "phase": "Portfolio",
+      "topics": [
+        "Kubernetes fundamentals",
+        "CI/CD pipelines",
+        "Security best practices",
+        "Monitoring and logging"
+      ],
+      "resources": [
+        {
+          "name": "Kubernetes in Action",
+          "type": "book"
+        },
+        {
+          "name": "GitHub Actions Documentation",
+          "type": "documentation"
+        }
+      ],
+      "milestone": "Деплоить проект на Kubernetes с CI/CD"
+    }
+  ]
+}
+
+## 4. Gap-анализ и портфолио
+{
+  "gap_analysis": {
+  "quick_wins": [
+    "Освоить Docker",
+    "Настроить CI/CD",
+    "Добавить тесты"
+  ],
+  "long_term": [
+    "Изучить Kubernetes deeply",
+    "Оптимизировать производительность кода",
+    "Разработать микросервисную архитектуру"
+  ]
+},
+  "portfolio_project": {
+  "title": "TaskFlow – корпоративная система управления задачами",
+  "description": "Разработана масштабируемая и безопасная бэкенд‑архитектура для корпоративного управления задачами, использующая микросервисный подход на Python. В проекте реализованы RESTful API с FastAPI, а также административный интерфейс на Django. Система упакована в Docker‑контейнеры и развёрнута в Kubernetes, обеспечивая высокую доступность и простоту масштабирования.",
+  "skills_demonstrated": [
+    "Python",
+    "FastAPI",
+    "Django",
+    "Docker",
+    "Kubernetes"
+  ]
+}
+}
+
+## 5. Верификация
+- **Quality Score**: 80
+- **Warnings**: Нет
+- **Consistent**: True

@@ -1,0 +1,253 @@
+{
+  "role": "ML Engineer",
+  "generated_at": "2026-04-05T16:16:50.825701",
+  "skill_map": {
+    "languages": [
+      {
+        "name": "Python",
+        "demand": "critical",
+        "trend": "growing"
+      },
+      {
+        "name": "R",
+        "demand": "important",
+        "trend": "stable"
+      },
+      {
+        "name": "Julia",
+        "demand": "nice-to-have",
+        "trend": "declining"
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "TensorFlow",
+        "demand": "critical",
+        "trend": "growing"
+      },
+      {
+        "name": "PyTorch",
+        "demand": "critical",
+        "trend": "growing"
+      },
+      {
+        "name": "Scikit-learn",
+        "demand": "important",
+        "trend": "stable"
+      },
+      {
+        "name": "XGBoost",
+        "demand": "important",
+        "trend": "stable"
+      },
+      {
+        "name": "FastAPI",
+        "demand": "nice-to-have",
+        "trend": "growing"
+      }
+    ],
+    "infrastructure": [
+      {
+        "name": "Docker",
+        "demand": "critical",
+        "trend": "growing"
+      },
+      {
+        "name": "Kubernetes",
+        "demand": "important",
+        "trend": "stable"
+      },
+      {
+        "name": "AWS SageMaker",
+        "demand": "important",
+        "trend": "growing"
+      },
+      {
+        "name": "Azure ML Studio",
+        "demand": "nice-to-have",
+        "trend": "stable"
+      }
+    ],
+    "soft_skills": [
+      {
+        "name": "Communication",
+        "demand": "critical",
+        "trend": "growing"
+      },
+      {
+        "name": "Problem‑tuning …?",
+        "demand": "nice-to-have",
+        "trend": "stable"
+      }
+    ]
+  },
+  "salary_table": {
+    "Junior": {
+      "Moscow": {
+        "min": 65000,
+        "median": 95000,
+        "max": 125000
+      },
+      "Regions_RF": {
+        "min": 45000,
+        "median": 70000,
+        "max": 95000
+      },
+      "Remote_USD": {
+        "min": 8000,
+        "median": 12000,
+        "max": 17000
+      }
+    },
+    "Middle": {
+      "Moscow": {
+        "min": 115000,
+        "median": 155000,
+        "max": 200000
+      },
+      "Regions_RF": {
+        "min": 85000,
+        "median": 115000,
+        "max": 145000
+      },
+      "Remote_USD": {
+        "min": 14000,
+        "median": 19000,
+        "max": 26000
+      }
+    },
+    "Senior": {
+      "Moscow": {
+        "min": 165000,
+        "median": 210000,
+        "max": 260000
+      },
+      "Regions_RF": {
+        "min": 125000,
+        "median": 160000,
+        "max": 200000
+      },
+      "Remote_USD": {
+        "min": 22000,
+        "median": 28000,
+        "max": 36000
+      }
+    },
+    "Lead": {
+      "Moscow": {
+        "min": 225000,
+        "median": 275000,
+        "max": 340000
+      },
+      "Regions_RF": {
+        "min": 170000,
+        "median": 210000,
+        "max": 260000
+      },
+      "Remote_USD": {
+        "min": 31000,
+        "median": 38000,
+        "max": 47000
+      }
+    }
+  },
+  "market_trend": {
+    "trend": "growing",
+    "reason": "High demand for ML‑related Python skills and cloud infrastructure keeps salaries rising."
+  },
+  "top_employers": [
+    "Yandex",
+    "Sberbank",
+    "Kaspersky",
+    "Mail.ru Group"
+  ],
+  "learning_path": {
+    "phases": [
+      {
+        "phase": "Foundation",
+        "topics": [
+          "Python core syntax",
+          "Object‑oriented programming",
+          "Data structures and algorithms",
+          "Unit testing with pytest"
+        ],
+        "resources": [
+          {
+            "name": "Automate the Boring Stuff with Python",
+            "type": "book"
+          },
+          {
+            "name": "Python Official Documentation",
+            "type": "documentation"
+          }
+        ],
+        "milestone": "Создать простое CLI‑приложение, использующее функции и классы, с тестами"
+      },
+      {
+        "phase": "Practice",
+        "topics": [
+          "FastAPI fundamentals",
+          "Docker containerization",
+          "RESTful API design",
+          "Error handling and logging"
+        ],
+        "resources": [
+          {
+            "name": "FastAPI Official Tutorial",
+            "type": "documentation"
+          },
+          {
+            "name": "Docker for Beginners",
+            "type": "course"
+          }
+        ],
+        "milestone": "Разработать REST‑service с использованием FastAPI и Docker"
+      },
+      {
+        "phase": "Portfolio",
+        "topics": [
+          "Machine learning integration",
+          "AWS SageMaker deployment",
+          "Kubernetes orchestration",
+          "CI/CD pipelines"
+        ],
+        "resources": [
+          {
+            "name": "AWS SageMaker Documentation",
+            "type": "documentation"
+          },
+          {
+            "name": "Kubernetes in Action",
+            "type": "book"
+          }
+        ],
+        "milestone": "Развернуть приложение с проектом ML в контейнере с НПС"
+      }
+    ]
+  },
+  "gap_analysis": {
+    "quick_wins": [
+      "Освоить Docker",
+      "Встроить unit‑tests в проект",
+      "Оптимизировать запросы к JSON API"
+    ],
+    "long_term": [
+      "Углубиться в FastAPI параметризации",
+      "Выработать импорт с AWS Sawyer Сustom …..??"
+    ]
+  },
+  "portfolio_project": {
+    "title": "Интеллектуальная система прогнозирования продаж",
+    "description": "Разработана масштабируемая платформа, позволяющая анализировать исторические данные и предсказывать будущие продажи с точностью до 95 %. Система использует современные модели машинного обучения и предоставляет API для интеграции с бизнес‑процессами.",
+    "skills_demonstrated": [
+      "Python",
+      "TensorFlow",
+      "Scikit-learn",
+      "Docker",
+      "Communication"
+    ]
+  },
+  "quality_score": 85,
+  "warnings": [],
+  "is_consistent": true
+}

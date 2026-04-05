@@ -1,7 +1,7 @@
 # Карьерный отчёт: Backend Python Developer
 
-**Сгенерировано:** 2026-04-05T11:04:48.735669  
-**Quality Score:** 80/100
+**Сгенерировано:** 2026-04-05T16:01:08.055183  
+**Quality Score:** 85/100
 
 ## 1. Карта навыков
 {
@@ -63,7 +63,7 @@
   ],
   "soft_skills": [
     {
-      "name": "Problem solving",
+      "name": "Problem‑solving",
       "demand": "critical",
       "trend": "growing"
     },
@@ -115,8 +115,8 @@
   "Senior": {
     "Moscow": {
       "min": 165000,
-      "median": 195000,
-      "max": 230000
+      "median": 190000,
+      "max": 225000
     },
     "Regions_RF": {
       "min": 120000,
@@ -131,27 +131,27 @@
   },
   "Lead": {
     "Moscow": {
-      "min": 225000,
-      "median": 260000,
-      "max": 300000
+      "min": 215000,
+      "median": 245000,
+      "max": 285000
     },
     "Regions_RF": {
-      "min": 170000,
-      "median": 200000,
-      "max": 240000
+      "min": 165000,
+      "median": 190000,
+      "max": 225000
     },
     "Remote_USD": {
-      "min": 32000,
-      "median": 38000,
-      "max": 46000
+      "min": 28000,
+      "median": 33000,
+      "max": 41000
     }
   }
 },
   "market_trend": {
   "trend": "growing",
-  "reason": "High demand for Python and Django, cloud adoption drives growth."
+  "reason": "High demand for Python and Django, coupled with cloud migration drives continuous hiring."
 },
-  "top_employers": ['Yandex', 'Sberbank', 'Kaspersky', 'Rostelecom']
+  "top_employers": ['Yandex', 'Sberbank', 'Kaspersky', 'JetBrains', 'Rostelecom']
 }
 
 ## 3. План развития
@@ -161,9 +161,9 @@
       "phase": "Foundation",
       "topics": [
         "Python fundamentals",
-        "Object‑Oriented Programming",
-        "SQL basics with PostgreSQL",
-        "Django core"
+        "Object‑oriented programming",
+        "Relational databases with PostgreSQL",
+        "Django core concepts"
       ],
       "resources": [
         {
@@ -175,15 +175,15 @@
           "type": "documentation"
         }
       ],
-      "milestone": "Создать CRUD‑приложение на Django с PostgreSQL и Docker"
+      "milestone": "Создать простое CRUD‑приложение на Django с базой PostgreSQL и Docker"
     },
     {
       "phase": "Practice",
       "topics": [
-        "FastAPI advanced",
-        "Docker Compose",
-        "REST API design",
-        "Unit testing"
+        "FastAPI asynchronous programming",
+        "Docker Compose orchestration",
+        "REST API design patterns",
+        "Automated testing with pytest"
       ],
       "resources": [
         {
@@ -191,16 +191,16 @@
           "type": "documentation"
         },
         {
-          "name": "Test-Driven Development with FastAPI",
+          "name": "Test‑Driven Development with FastAPI",
           "type": "course"
         }
       ],
-      "milestone": "Построить два микросервиса и развернуть их через Docker Compose"
+      "milestone": "Разработать два микросервиса на FastAPI и развернуть их через Docker Compose"
     },
     {
       "phase": "Portfolio",
       "topics": [
-        "Kubernetes fundamentals",
+        "Kubernetes deployment",
         "CI/CD pipelines",
         "Security best practices",
         "Monitoring and logging"
@@ -215,7 +215,7 @@
           "type": "documentation"
         }
       ],
-      "milestone": "Деплоить проект на Kubernetes с CI/CD"
+      "milestone": "Деплоить приложение на Kubernetes с CI/CD и мониторингом"
     }
   ]
 }
@@ -224,30 +224,30 @@
 {
   "gap_analysis": {
   "quick_wins": [
-    "Освоить Docker",
-    "Настроить CI/CD",
-    "Добавить тесты"
+    "Освоить Docker и Docker‑Compose",
+    "Настроить CI/CD для проекта",
+    "Добавить unit‑тесты"
   ],
   "long_term": [
-    "Изучить Kubernetes deeply",
-    "Оптимизировать производительность кода",
-    "Разработать микросервисную архитектуру"
+    "Изучить микросервисную архитектуру глубже",
+    "Внедрить безопасность API внутри сервиса",
+    "Постоянно обновлять проект на выходе новых версий Python"
   ]
 },
   "portfolio_project": {
-  "title": "TaskFlow – корпоративная система управления задачами",
-  "description": "Разработана масштабируемая и безопасная бэкенд‑архитектура для корпоративного управления задачами, использующая микросервисный подход на Python. В проекте реализованы RESTful API с FastAPI, а также административный интерфейс на Django. Система упакована в Docker‑контейнеры и развёрнута в Kubernetes, обеспечивая высокую доступность и простоту масштабирования.",
+  "title": "Модуль тестирования API для e‑Commerce",
+  "description": "Разработан модуль, позволяющий автоматически проверять корректность работы REST‑API интернет‑магазина. Система генерирует запросы, сравнивает ответы с ожидаемыми результатами и формирует отчёт о найденных ошибках.",
   "skills_demonstrated": [
     "Python",
     "FastAPI",
-    "Django",
     "Docker",
-    "Kubernetes"
+    "PostgreSQL",
+    "Problem‑solving"
   ]
 }
 }
 
 ## 5. Верификация
-- **Quality Score**: 80
+- **Quality Score**: 85
 - **Warnings**: Нет
 - **Consistent**: True

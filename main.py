@@ -9,25 +9,21 @@ from agents.agent_1_analyst import agent_1_analyst
 from agents.agent_2_salary import agent_2_salary
 from agents.agent_3_advisor import agent_3_advisor
 from agents.agent_4_critic import agent_4_critic
-from agents.fix_portfolio import fix_portfolio   # наш фиксер
+from agents.fix_portfolio import fix_portfolio
 
 app = typer.Typer()
 console = Console()
 
 
 def save_report(report: Report, role: str):
-    """Сохраняет report.json и report.md"""
     safe_name = "".join(c if c.isalnum() else "_" for c in role)
-    
     examples_dir = Path("examples")
     examples_dir.mkdir(exist_ok=True)
     
-    # JSON
     json_path = examples_dir / f"{safe_name}.json"
     with open(json_path, "w", encoding="utf-8") as f:
         f.write(report.model_dump_json(indent=2))
     
-    # Простой MD
     md_path = examples_dir / f"{safe_name}.md"
     md_content = f"""# Карьерный отчёт: {role}
 
@@ -67,34 +63,28 @@ def save_report(report: Report, role: str):
 
 @app.command()
 def main(role: str = typer.Argument(..., help="Название специальности")):
-    """Запуск мультиагентной системы анализа карьерного рынка IT"""
-    
     console.print(Panel(f"[bold cyan]Запуск анализа для роли:[/bold cyan] [yellow]{role}[/yellow]", expand=False))
     
     start_time = datetime.now()
     
-    # === Цепочка агентов ===
     skill_map = agent_1_analyst(role)
     agent2 = agent_2_salary(skill_map)
     agent3 = agent_3_advisor(skill_map, agent2)
     
-    # === Фикс portfolio_project ===
+    # Простой фикс только portfolio_project
     try:
-        fixed_portfolio = fix_portfolio(skill_map, agent3.portfolio_project.model_dump())
-        # Заменяем portfolio_project на исправленный
+        fixed = fix_portfolio(skill_map, agent3.portfolio_project.model_dump())
         agent3.portfolio_project = PortfolioProject(
-            title=fixed_portfolio.title,
-            description=fixed_portfolio.description,
-            skills_demonstrated=fixed_portfolio.skills_demonstrated
+            title=fixed.title,
+            description=fixed.description,
+            skills_demonstrated=fixed.skills_demonstrated
         )
         print("Portfolio project успешно исправлен")
     except Exception as e:
-        print(f"Не удалось исправить portfolio_project: {e}")
+        print(f"Фикс portfolio не сработал: {e}")
 
-    # === Агент 4 (Критик) ===
     agent4 = agent_4_critic(skill_map, agent2, agent3)
     
-    # === Формируем итоговый отчёт ===
     full_report = Report(
         role=role,
         skill_map=skill_map,
@@ -109,7 +99,6 @@ def main(role: str = typer.Argument(..., help="Название специаль
         is_consistent=agent4.is_consistent,
     )
     
-    # Сохраняем
     json_path, md_path = save_report(full_report, role)
     
     elapsed = (datetime.now() - start_time).seconds

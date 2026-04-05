@@ -1,6 +1,6 @@
 # Карьерный отчёт: ML Engineer
 
-**Сгенерировано:** 2026-04-05T11:05:40.589284  
+**Сгенерировано:** 2026-04-05T16:16:50.825701  
 **Quality Score:** 85/100
 
 ## 1. Карта навыков
@@ -19,7 +19,7 @@
     {
       "name": "Julia",
       "demand": "nice-to-have",
-      "trend": "growing"
+      "trend": "declining"
     }
   ],
   "frameworks": [
@@ -42,6 +42,11 @@
       "name": "XGBoost",
       "demand": "important",
       "trend": "stable"
+    },
+    {
+      "name": "FastAPI",
+      "demand": "nice-to-have",
+      "trend": "growing"
     }
   ],
   "infrastructure": [
@@ -61,24 +66,19 @@
       "trend": "growing"
     },
     {
-      "name": "Azure ML",
+      "name": "Azure ML Studio",
       "demand": "nice-to-have",
       "trend": "stable"
     }
   ],
   "soft_skills": [
     {
-      "name": "Data‑analysis skills",
+      "name": "Communication",
       "demand": "critical",
       "trend": "growing"
     },
     {
-      "name": "Problem‑solving",
-      "demand": "important",
-      "trend": "growing"
-    },
-    {
-      "name": "Communication …?",
+      "name": "Problem‑tuning …?",
       "demand": "nice-to-have",
       "trend": "stable"
     }
@@ -90,78 +90,78 @@
   "salary_table": {
   "Junior": {
     "Moscow": {
-      "min": 60000,
-      "median": 80000,
-      "max": 100000
+      "min": 65000,
+      "median": 95000,
+      "max": 125000
     },
     "Regions_RF": {
-      "min": 40000,
-      "median": 55000,
-      "max": 70000
+      "min": 45000,
+      "median": 70000,
+      "max": 95000
     },
     "Remote_USD": {
-      "min": 1200,
-      "median": 1600,
-      "max": 2000
+      "min": 8000,
+      "median": 12000,
+      "max": 17000
     }
   },
   "Middle": {
     "Moscow": {
-      "min": 90000,
-      "median": 115000,
-      "max": 140000
+      "min": 115000,
+      "median": 155000,
+      "max": 200000
     },
     "Regions_RF": {
-      "min": 65000,
-      "median": 80000,
-      "max": 95000
+      "min": 85000,
+      "median": 115000,
+      "max": 145000
     },
     "Remote_USD": {
-      "min": 1700,
-      "median": 2100,
-      "max": 2500
+      "min": 14000,
+      "median": 19000,
+      "max": 26000
     }
   },
   "Senior": {
     "Moscow": {
-      "min": 130000,
-      "median": 160000,
-      "max": 190000
+      "min": 165000,
+      "median": 210000,
+      "max": 260000
     },
     "Regions_RF": {
-      "min": 100000,
-      "median": 125000,
-      "max": 150000
+      "min": 125000,
+      "median": 160000,
+      "max": 200000
     },
     "Remote_USD": {
-      "min": 2200,
-      "median": 2600,
-      "max": 3000
+      "min": 22000,
+      "median": 28000,
+      "max": 36000
     }
   },
   "Lead": {
     "Moscow": {
-      "min": 170000,
-      "median": 210000,
-      "max": 250000
+      "min": 225000,
+      "median": 275000,
+      "max": 340000
     },
     "Regions_RF": {
-      "min": 130000,
-      "median": 155000,
-      "max": 180000
+      "min": 170000,
+      "median": 210000,
+      "max": 260000
     },
     "Remote_USD": {
-      "min": 2800,
-      "median": 3200,
-      "max": 3600
+      "min": 31000,
+      "median": 38000,
+      "max": 47000
     }
   }
 },
   "market_trend": {
   "trend": "growing",
-  "reason": "High demand for ML‑focused backend engineers and cloud infrastructure skills keeps salaries rising."
+  "reason": "High demand for ML‑related Python skills and cloud infrastructure keeps salaries rising."
 },
-  "top_employers": ['Yandex', 'Sberbank', 'Kaspersky', 'Rostelecom']
+  "top_employers": ['Yandex', 'Sberbank', 'Kaspersky', 'Mail.ru Group']
 }
 
 ## 3. План развития
@@ -170,10 +170,10 @@
     {
       "phase": "Foundation",
       "topics": [
-        "Python fundamentals",
+        "Python core syntax",
         "Object‑oriented programming",
         "Data structures and algorithms",
-        "SQL basics"
+        "Unit testing with pytest"
       ],
       "resources": [
         {
@@ -181,51 +181,51 @@
           "type": "book"
         },
         {
-          "name": "Corey Schafer Python Tutorial Series",
-          "type": "video"
+          "name": "Python Official Documentation",
+          "type": "documentation"
         }
       ],
-      "milestone": "Создать простое CRUD‑приложение на Flask с SQLite и Dockerfile"
+      "milestone": "Создать простое CLI‑приложение, использующее функции и классы, с тестами"
     },
     {
       "phase": "Practice",
       "topics": [
-        "FastAPI",
-        "Docker Compose",
-        "REST API design",
-        "Unit testing"
+        "FastAPI fundamentals",
+        "Docker containerization",
+        "RESTful API design",
+        "Error handling and logging"
       ],
       "resources": [
         {
-          "name": "FastAPI Official Documentation",
+          "name": "FastAPI Official Tutorial",
           "type": "documentation"
         },
         {
-          "name": "Test‑Driven Development with FastAPI",
+          "name": "Docker for Beginners",
           "type": "course"
         }
       ],
-      "milestone": "Построить два микросервиса и развернуть их через Docker Compose"
+      "milestone": "Разработать REST‑service с использованием FastAPI и Docker"
     },
     {
       "phase": "Portfolio",
       "topics": [
-        "Docker",
-        "Kubernetes",
-        "CI/CD",
-        "Security"
+        "Machine learning integration",
+        "AWS SageMaker deployment",
+        "Kubernetes orchestration",
+        "CI/CD pipelines"
       ],
       "resources": [
         {
-          "name": "Docker in Python Guide",
-          "type": "book"
+          "name": "AWS SageMaker Documentation",
+          "type": "documentation"
         },
         {
-          "name": "Kubernetes Official Documentation",
-          "type": "documentation"
+          "name": "Kubernetes in Action",
+          "type": "book"
         }
       ],
-      "milestone": "Разработать проект с контейнеризацией в k8s и CI‑pipeline для тестирования от сервиса на скриптом .."
+      "milestone": "Развернуть приложение с проектом ML в контейнере с НПС"
     }
   ]
 }
@@ -235,21 +235,23 @@
   "gap_analysis": {
   "quick_wins": [
     "Освоить Docker",
-    "Построим сервис обновления ТЗ…"
+    "Встроить unit‑tests в проект",
+    "Оптимизировать запросы к JSON API"
   ],
   "long_term": [
-    "Continue ..."
+    "Углубиться в FastAPI параметризации",
+    "Выработать импорт с AWS Sawyer Сustom …..??"
   ]
 },
   "portfolio_project": {
-  "title": "Машинное обучение для прогнозирования спроса на электроэнергию",
-  "description": "Разработан масштабируемый пайплайн, который собирает данные из реальных источников, обучает модели регрессии и развертывает их в облаке. В результате достигается точность предсказаний выше 92 % и сокращение затрат на хранение данных.",
+  "title": "Интеллектуальная система прогнозирования продаж",
+  "description": "Разработана масштабируемая платформа, позволяющая анализировать исторические данные и предсказывать будущие продажи с точностью до 95 %. Система использует современные модели машинного обучения и предоставляет API для интеграции с бизнес‑процессами.",
   "skills_demonstrated": [
     "Python",
     "TensorFlow",
+    "Scikit-learn",
     "Docker",
-    "AWS SageMaker",
-    "Data‑analysis skills"
+    "Communication"
   ]
 }
 }
